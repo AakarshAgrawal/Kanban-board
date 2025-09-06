@@ -1,0 +1,23 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ font-family: sans-serif; 
+}
+body {
+    height: 100vh;
+
+}
+.board2 {
+    width: 900px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.todo-board {
+    height: 500px;
+    width: 300px;
+    background-color: rebeccapurple;
+    text-align: center;
+}

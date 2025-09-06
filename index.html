@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style2.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="boards">
+        <div class="board2">
+            <div class="todo-board">
+                <h2>to do tasks</h2>
+                <div class="task-list" id="todo"> </div>
+            </div>
+
+            <div class="inprogress">
+                <h2>In progress</h2>
+                <div class="task-list" id="inprogress"></div>
+            </div>
+
+            <div class="completed">
+                <h2>Completed</h2>
+                <div class="task-list" id="completed"></div>
+            </div>
+            
+        </div>
+        <div class="add-task">
+            <button class="addtask" id="openForm">Add Task</button>
+            <div class="addtaskform"  id="taskForm">
+                <input id="task-input" type="text" placeholder="Enter task here">
+                <br>
+                <button id="addBtn">Add</button>
+                <button id="cancelBtn">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
