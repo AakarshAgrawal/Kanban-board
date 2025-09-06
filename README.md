@@ -15,4 +15,4 @@ You can add tasks, drag them across columns (`To Do`, `In Progress`, `Completed`
 ---
 
 ## 📂 Project Structure
-![Kanban Board Screenshot](./screenshot.png)
+![Kanban Board Screenshot](https://github.com/AakarshAgrawal/Kanban-board/blob/e994030072b0e4861d52875c797d4fc102a93db4/Screenshot%202025-09-06%20135306.png)
